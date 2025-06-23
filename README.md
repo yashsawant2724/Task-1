@@ -22,6 +22,7 @@ Port 1900 commonly associated with UPnP (Universal Plug and Play) and SSDP (Simp
 Port 1688, used by Key Management Service (KMS) for Windows activation, presents a security risk if not properly managed. Attackers can exploit vulnerabilities in KMS or the activation process itself to compromise systems, potentially leading to unauthorized access, malware distribution, or denial-of-service attacks. 
 Port 50300, if exposed, can pose significant security risks. It's often used by services like Oracle WebLogic, and if not properly secured, can be exploited by attackers for unauthorized access, data breaches, or denial-of-service attacks. 
 
+
 **Nmap Logs:
 **
 
@@ -35,6 +36,7 @@ Port 50300, if exposed, can pose significant security risks. It's often used by 
 
 **Wireshark:
 **
+
 I have also successfully installed and alalysed traffic through Wireshark.
 Used various filters on wireshark to filter traffic logs.
 Used expert analysis to understand various packets in Wireshark.
@@ -42,8 +44,9 @@ Most common port found in Wireshark are DNS, HTTP, TCP, ARP.
 Potential risks associated with DNS, TCP, and HTTP ports include various attacks like DDoS, DNS spoofing, cache poisoning, and various web application exploits like XSS and SQL injection. 
 These attacks can lead to data breaches, malware infections, and service disruptions. 
 
-Wireshark Logs:
 
+**Wireshark Logs:
+**
 ![Screenshot 2025-06-23 175007](https://github.com/user-attachments/assets/8b87f310-3a5e-4ebb-b0c7-73e72cb51209)
 ![Screenshot 2025-06-23 175021](https://github.com/user-attachments/assets/a3d456b5-253b-4b4c-8b2c-b84818dbbe32)
 ![Screenshot 2025-06-23 174836](https://github.com/user-attachments/assets/11e69e04-961c-41b9-a5af-1b28bde80205)
