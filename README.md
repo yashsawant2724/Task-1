@@ -1,11 +1,12 @@
-# Task-1
-Scanning my Local Network for Open Ports.
+**# Task-1
+Scanning my Local Network for Open Ports.**
 
 Objective: Learn to discover open ports on devices in your local network to
 understand network exposure.
 Tools: Nmap (free), Wireshark (optional)
 
-Nmap:
+**Nmap:
+**
 I have successfully installed Nmap in VMware and scanned my local Wi-Fi network through Nmap.
 Performed nmap -sS 192.168.1.0/24 for TCP SYN scan.
 Nmap SYN scan takes a lot of time.
@@ -21,7 +22,8 @@ Port 1900 commonly associated with UPnP (Universal Plug and Play) and SSDP (Simp
 Port 1688, used by Key Management Service (KMS) for Windows activation, presents a security risk if not properly managed. Attackers can exploit vulnerabilities in KMS or the activation process itself to compromise systems, potentially leading to unauthorized access, malware distribution, or denial-of-service attacks. 
 Port 50300, if exposed, can pose significant security risks. It's often used by services like Oracle WebLogic, and if not properly secured, can be exploited by attackers for unauthorized access, data breaches, or denial-of-service attacks. 
 
-Nmap Logs:
+**Nmap Logs:
+**
 
 ![image](https://github.com/user-attachments/assets/bcb8bb90-850b-4390-9ddd-ff0b14036f8a)
 ![image](https://github.com/user-attachments/assets/552ff628-9493-4562-9200-ff6d807e9d5b)
@@ -30,7 +32,9 @@ Nmap Logs:
 ![image](https://github.com/user-attachments/assets/5aad8a26-8880-416f-9ea1-67e6889a4f4b)
 
 
-Wireshark:
+
+**Wireshark:
+**
 I have also successfully installed and alalysed traffic through Wireshark.
 Used various filters on wireshark to filter traffic logs.
 Used expert analysis to understand various packets in Wireshark.
